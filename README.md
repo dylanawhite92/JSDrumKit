@@ -1,3 +1,3 @@
 # JavaScript Drum Kit
 
-A browser-based keyboard made using vanilla JavaScript.
+A browser-based keyboard made using vanilla JavaScript!
