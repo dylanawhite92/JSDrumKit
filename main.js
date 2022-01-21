@@ -1,5 +1,3 @@
-const keys = document.querySelectorAll('.key');
-
 window.addEventListener('keydown', e => {
     const audio = document.querySelector(`audio[data-key="${e.key}"]`);
     const key = document.querySelector(`.key[data-key="${e.key}"]`);
@@ -13,7 +11,8 @@ window.addEventListener('keydown', e => {
 
 removeTransition = e => {
     if(e.propertyName !== 'transform') return; // Skip if not the transform value
-    console.log(e.propertyName);
+    e.target.classList.remove('playing');
 };
 
+const keys = document.querySelectorAll('.key');
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
