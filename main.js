@@ -1,4 +1,5 @@
-window.addEventListener('keydown', e => {
+// Logic for playing sound on keypress
+playSound = e => {
     const audio = document.querySelector(`audio[data-key="${e.key}"]`);
     const key = document.querySelector(`.key[data-key="${e.key}"]`);
     
@@ -7,8 +8,9 @@ window.addEventListener('keydown', e => {
     audio.play();
     
     key.classList.add('playing');
-});
+};
 
+// Remove playing class
 removeTransition = e => {
     if(e.propertyName !== 'transform') return; // Skip if not the transform value
     e.target.classList.remove('playing');
@@ -16,3 +18,4 @@ removeTransition = e => {
 
 const keys = document.querySelectorAll('.key');
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+window.addEventListener('keydown', playSound);
