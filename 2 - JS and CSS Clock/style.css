@@ -34,13 +34,6 @@ body {
   transform: translateY(-3px); /* account for height of clock hands */
 }
 
-.hand {
-  height: 6px;
-  background: black;
-  position: absolute;
-  top: 50%;
-}
-
 .hour-hand,
 .min-hand {
   right: 50%; /* change origin to center the shorter hand as it rotates */
@@ -55,5 +48,17 @@ body {
   width: 40%;
 }
 .second-hand {
-  width: 45%;
+  width: 50%;
+}
+
+.hand {
+  height: 6px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  /* give hand a realistic ticking snap */
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
