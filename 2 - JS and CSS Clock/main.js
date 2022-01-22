@@ -1,5 +1,7 @@
 setDate = () => {
-    console.log("hi");
+    const now = new Date();
+    const seconds = now.getSeconds();
+    console.log(seconds);
 }
 
-setInterval(1000, setDate);
+setInterval(setDate, 1000);
