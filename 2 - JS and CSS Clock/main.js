@@ -18,6 +18,7 @@ setDate = () => {
     hourHand.style.transform = `rotate(${hourDegrees}deg)`;
 
     // come back and insert code to remove animation break
+    // remove css class and reappend when clock is turning over
    
     console.log(`${hour}:${mins}:${seconds}`);
 }
