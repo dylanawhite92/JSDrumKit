@@ -16,6 +16,8 @@ setDate = () => {
     secondHand.style.transform  = `rotate(${secondsDegrees}deg)`;
     minHand.style.transform = `rotate(${minDegrees}deg)`;
     hourHand.style.transform = `rotate(${hourDegrees}deg)`;
+
+    // come back and insert code to remove animation break
    
     console.log(`${hour}:${mins}:${seconds}`);
 }
