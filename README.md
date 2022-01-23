@@ -12,6 +12,6 @@ A keyboard drum kit that plays sounds and changes the styling of elements based 
 
 ## Day 2. JS and CSS Clock
 
-A keyboard drum kit that plays sounds and changes the styling of elements based on what key is pressed.
+A clock built with CSS that moves the hands using JavaScript Date methods.
 
 ![JS and CSS Clock](./Screenshots/Clock.png)
