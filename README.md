@@ -66,6 +66,6 @@ Instead of including a screenshot, I thought I would just explain this BECAUSE t
 
 #### 8. Sum up the instances of repeated items in an array.
 
-![Problem 8: Array.prototype.reduce() (again)](#)
+This problem really just loops over the array and adds each instance to an object with the key value pairs being "vehicle: # of times in array". The result: { car: 5, truck: 3, bike: 2, walk: 2, van: 2}
 
 </details>

@@ -86,3 +86,15 @@ const inventors = [
     // 8. Reduce Exercise
     // Sum up the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+
+    const transportation = data.reduce((obj, vehicle) => {
+        // Add vehicle to object if it doesn't exist already
+        if (!obj[vehicle]) {
+            obj[vehicle] = 0;
+        }
+
+        obj[vehicle]++;
+        return obj;
+    }, {}); // Start with blank object for the code to fill with entries
+
+    console.log(transportation);
