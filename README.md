@@ -42,7 +42,7 @@ Building 30 things in (close to) 30 days with 30 tutorials.
 
 #### 4. How many years did all the inventors live all together?
 
-![Problem 4: Array.prototype.reduce()](#)
+Instead of including a screenshot, I thought I would just explain this BECAUSE this problem only returns a single line. The reduce method loops over our array of inventors and subtracts the year they passed from the year they were born. It then adds that to a running total (starting at 0) until we reach the total years lived by all inventors (861 years).
 
 #### 5. Sort the inventors by years lived.
 
