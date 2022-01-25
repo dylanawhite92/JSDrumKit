@@ -11,7 +11,7 @@ Building 30 things in (close to) 30 days with 30 tutorials.
 <details>
     </summary>A keyboard drum kit that plays sounds and changes the styling of elements based on what key is pressed.</summary>
 
-    ![JS Drum Kit](./Screenshots/JSDrumKit.png)
+![JS Drum Kit](./Screenshots/JSDrumKit.png)
 
 </details>
 
