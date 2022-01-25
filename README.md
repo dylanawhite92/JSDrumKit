@@ -62,7 +62,7 @@ Instead of including a screenshot, I thought I would just explain this BECAUSE t
 
 #### 7. Sort the people alphabetically by last name.
 
-![Problem 7: Array.prototype.sort() (yet again)](#)
+![Problem 7: Array.prototype.sort() (yet again)](./Screenshots/Day4Challenge7.png)
 
 #### 8. Sum up the instances of repeated items in an array.
 

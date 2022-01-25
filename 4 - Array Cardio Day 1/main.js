@@ -63,15 +63,25 @@ const inventors = [
     
     // This problem was done within the web console using dev tools on the linked page,
     // but the code will still be put here.
-    const category = document.querySelector('.mw-category');
-    const links = Array.from(category.querySelectorAll('a'));
+    // const category = document.querySelector('.mw-category');
+    // const links = Array.from(category.querySelectorAll('a'));
 
-    const de = links
-                    .map(link => link.textContent)
-                    .filter(streetName => streetName.includes('de'));
+    // const de = links
+    //                 .map(link => link.textContent)
+    //                 .filter(streetName => streetName.includes('de'));
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
+    const alpha = people.sort((lastOne, nextOne) => {
+        // Split first and last names into separate values by looking for LCD,
+        // Which is that all names in array are separated by a comma and a space.
+        const [aLast, aFirst] = lastOne.split(', ');
+        const [bLast, bFirst] = nextOne.split(', ');
+
+        return aLast > bLast ? 1 : -1;
+    });
+
+    console.table(alpha);
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
