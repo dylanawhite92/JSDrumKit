@@ -8,9 +8,12 @@ Building 30 things in (close to) 30 days with 30 tutorials.
 
 ## Day 1. JavaScript Drum Kit
 
-A keyboard drum kit that plays sounds and changes the styling of elements based on what key is pressed.
+<details>
+    </summary>A keyboard drum kit that plays sounds and changes the styling of elements based on what key is pressed.</summary>
 
-![JS Drum Kit](./Screenshots/JSDrumKit.png)
+    ![JS Drum Kit](./Screenshots/JSDrumKit.png)
+
+</details>
 
 ## Day 2. JS and CSS Clock
 
