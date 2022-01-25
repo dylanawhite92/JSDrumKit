@@ -8,28 +8,25 @@ Building 30 things in (close to) 30 days with 30 tutorials.
 
 ## Day 1. JavaScript Drum Kit
 
-<details>
-    </summary>A keyboard drum kit that plays sounds and changes the styling of elements based on what key is pressed.</summary>
+<details>A keyboard drum kit that plays sounds and changes the styling of elements based on what key is pressed.
 
-![JS Drum Kit](./Screenshots/JSDrumKit.png)
-
-</details>
+![JS Drum Kit](./Screenshots/JSDrumKit.png)</details>
 
 ## Day 2. JS and CSS Clock
 
-A clock built with CSS that moves the hands using JavaScript Date methods.
+<details>A clock built with CSS that moves the hands using JavaScript Date methods.
 
-![JS and CSS Clock](./Screenshots/Clock.png)
+![JS and CSS Clock](./Screenshots/Clock.png)</details>
 
 ## Day 3. Scoped CSS Variables and JS
 
-CSS Variable Updater using sliders and a color picker.
+<details>CSS Variable Updater using sliders and a color picker.
 
-![Scoped CSS Variables and JS](./Screenshots/CSSVariables.png)
+![Scoped CSS Variables and JS](./Screenshots/CSSVariables.png)</details>
 
 ## Day 4. Array Cardio Day 1
 
-Working our brain muscles with array methods.
+<details>Working our brain muscles with array methods.
 
 #### 1. Filter the list of inventors for those who were born in the 1500's.
 
@@ -62,3 +59,5 @@ Working our brain muscles with array methods.
 #### 8. Sum up the instances of repeated items in an array.
 
 ![Problem 8: Array.prototype.reduce() (again)](#)
+
+</details>
