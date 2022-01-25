@@ -46,7 +46,7 @@ Instead of including a screenshot, I thought I would just explain this BECAUSE t
 
 #### 5. Sort the inventors by years lived.
 
-![Problem 5: Array.prototype.sort() (again)](#)
+![Problem 5: Array.prototype.sort() (again)](./Screenshots/Day4Challenge5.png)
 
 #### 6. Create a list of boulevards in Paris that contain 'de' anywhere in the name.
 
