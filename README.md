@@ -50,7 +50,15 @@ Instead of including a screenshot, I thought I would just explain this BECAUSE t
 
 #### 6. Create a list of boulevards in Paris that contain 'de' anywhere in the name.
 
-![Problem 6](#)
+**This problem warrants more description.**
+
+1. Used the dev tools to grab the class of the element containing the list of boulevards in Paris in order to loop over them.
+2. Grabbed the links within the element so that our code could read them.
+3. Convert the list provided from a NodeList to an Array, because we're practicing with the map/filter methods, and not using the forEach that is available to NodeLists through the browser API. A brief explanation of the [differences between NodeLists and Arrays](https://gomakethings.com/nodelists-vs-arrays/).
+4. Loop over the list of links and pull only the names of boulevards from the elements.
+5. Filter through the list and only return boulevards with 'de' in them.
+
+![Problem 6: Combine Map & Filter](./Screenshots/Day4Challenge6.png)
 
 #### 7. Sort the people alphabetically by last name.
 
