@@ -32,9 +32,9 @@ Working our brain muscles with array methods.
 
 ![Problem 1: Array.prototype.filter()](./Screenshots/Day4Challenge1.png)
 
-#### 2. Give us an array of the inventors first and last names.
+#### 2. Give us an array of the inventors' first and last names. (Looked gross in VS Code debug console, ran in web console)
 
-![Problem 2: Array.prototype.map()](#)
+![Problem 2: Array.prototype.map()](./Screenshots/Day4Challenge2.png)
 
 #### 3. Sort the inventors by birthdate, oldest to youngest.
 
