@@ -38,7 +38,7 @@ Building 30 things in (close to) 30 days with 30 tutorials.
 
 #### 3. Sort the inventors by birthdate, oldest to youngest.
 
-![Problem 3: Array.prototype.sort()](#)
+![Problem 3: Array.prototype.sort()](./Screenshots/Day4Challenge3.png)
 
 #### 4. How many years did all the inventors live all together?
 
