@@ -23,3 +23,11 @@ A clock built with CSS that moves the hands using JavaScript Date methods.
 CSS Variable Updater using sliders and a color picker.
 
 ![Scoped CSS Variables and JS](./Screenshots/CSSVariables.png)
+
+## Day 4. Array Cardio Day 1
+
+Working our brain muscles with array methods.
+
+#### 1. Filter the list of inventors for those who were born in the 1500's.
+
+![Problem 1: Array.prototype.filter()](./Screenshots/Day4Challenge1.png)
