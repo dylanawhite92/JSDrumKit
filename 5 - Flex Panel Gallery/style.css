@@ -89,6 +89,12 @@ body {
   transform: translateY(0);
 }
 
+/* Have panel grow when open class is added */
+.panel.open {
+  flex: 5;
+  font-size: 40px;
+}
+
 .panel p {
   text-transform: uppercase;
   font-family: "Amatic SC", cursive;
