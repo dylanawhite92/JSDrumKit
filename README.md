@@ -69,3 +69,9 @@ Instead of including a screenshot, I thought I would just explain this BECAUSE t
 This problem really just loops over the array and adds each instance to an object with the key value pairs being "vehicle: # of times in array". The result: { car: 5, truck: 3, bike: 2, walk: 2, van: 2}
 
 </details>
+
+## Day 5. Flex Panels Image Gallery
+
+<details>An image gallery built using flexbox display properties/CSS animations, manipulated with JS.
+
+![Flex Panels Image Gallery](./Screenshots/FlexGallery.png)</details>
