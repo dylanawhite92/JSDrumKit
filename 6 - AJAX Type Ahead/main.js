@@ -17,7 +17,8 @@ findMatches = (wordToMatch, cities) => {
 
 // Display searches that match input
 function displayMatches() {
-    console.log(this.value);
+    const matchArray = findMatches(this.value, cities);
+    console.log(matchArray);
 }
 
 const searchInput = document.querySelector('.search');
