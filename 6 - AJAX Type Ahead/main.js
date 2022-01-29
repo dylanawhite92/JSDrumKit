@@ -18,7 +18,19 @@ findMatches = (wordToMatch, cities) => {
 // Display searches that match input
 function displayMatches() {
     const matchArray = findMatches(this.value, cities);
-    console.log(matchArray);
+    
+    // Create list elements with searched inputs, join them after otherwise the
+    // elements are added as entries in an array and get broken up with commas
+    const html = matchArray.map(place => {
+        return `
+            <li>
+                <span class="name">${place.city}, ${place.state}</span>
+                <span class="population">${place.population}</span>
+            </li>
+        `;
+    }).join('');
+
+    suggestions.innerHTML = html;
 }
 
 const searchInput = document.querySelector('.search');
