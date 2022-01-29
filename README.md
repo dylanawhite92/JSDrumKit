@@ -75,3 +75,9 @@ This problem really just loops over the array and adds each instance to an objec
 <details>An image gallery built using flexbox display properties/CSS animations, manipulated with JS.
 
 ![Flex Panels Image Gallery](./Screenshots/FlexGallery.png)</details>
+
+## Day 6. AJAX Type Ahead Feature
+
+<details>A predictive text feature that matches a city or state that you type in and provides population information.
+
+![AJAX Type Ahead](#)</details>
