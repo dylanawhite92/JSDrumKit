@@ -80,4 +80,4 @@ This problem really just loops over the array and adds each instance to an objec
 
 <details>A predictive text feature that matches a city or state that you type in and provides population information.
 
-![AJAX Type Ahead](#)</details>
+![AJAX Type Ahead](./Screenshots/TypeAhead)</details>
