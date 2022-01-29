@@ -2,6 +2,8 @@
 
 _Updating README with GIFs to replace static screenshots when the 30 days are complete._
 
+_Creating landing page when complete as a little challenge and deploying to github pages for display_
+
 Following the [30 day Vanilla JS Coding Challenge]https://javascript30.com/) from Wes Bos.
 
 Building 30 things in (close to) 30 days with 30 tutorials.
