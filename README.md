@@ -94,4 +94,4 @@ This problem really just loops over the array and adds each instance to an objec
 
 <details>An HTML canvas where we can click and drag to draw with a pen of rainbow colors that varies in width based on how fast the mouse moves.
 
-![Fun with HTML5 Canvas](#)</details>
+![Fun with HTML5 Canvas](./Screenshots/HTMLCanvas.png)</details>
