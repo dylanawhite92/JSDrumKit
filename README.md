@@ -86,4 +86,6 @@ This problem really just loops over the array and adds each instance to an objec
 
 ## Day 7. Array Cardio Day 2
 
-<details>This day returns single line console outputs that are easily verifiable so it's not really helpful to put tiny screenshots here. However, this day covered more array methods, such as: Some, Every, Find, and Find Index.
+<details>This day returns console outputs. This day covered more array methods, such as: Some, Every, Find, and Find Index. We use findIndex() to search for a specific commeny by ID, and then remove it from the array based on that index.
+
+![Array Cardio Day 2](./Screenshots/Day7ArrayCardio.png)</details>
