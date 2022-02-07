@@ -49,3 +49,12 @@ const comments = [
     // 3. Array.prototype.findIndex()
     // Find the comment with this ID
     // delete the comment with the ID of 823423
+    const index  = comments.findIndex(comment => comment.id === 823423);
+
+    // Spread elements into new array, removing the comment we searched for by index
+    const newComments = [
+        ...comments.slice(0, index),
+        ...comments.slice(index + 1)
+    ];
+
+    console.table(newComments);
