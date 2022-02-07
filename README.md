@@ -89,3 +89,9 @@ This problem really just loops over the array and adds each instance to an objec
 <details>This day returns console outputs. This day covered more array methods, such as: Some, Every, Find, and Find Index. We use findIndex() to search for a specific commeny by ID, and then remove it from the array based on that index.
 
 ![Array Cardio Day 2](./Screenshots/Day7ArrayCardio.png)</details>
+
+## Day 8. Fun with HTML5 Canvas
+
+<details>An HTML canvas where we can click and drag to draw with a pen of rainbow colors that varies in width based on how fast the mouse moves.
+
+![Fun with HTML5 Canvas](#)</details>
