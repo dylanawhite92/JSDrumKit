@@ -10,14 +10,20 @@ canvas.height = window.innerHeight;
 ctx.strokeStyle = '#BADA55';
 ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
+ctx.lineWidth = 50;
 
 let isDrawing = false;
 let lastX = 0;
 let lastY = 0;
+let hue = 0;
 
 function draw(e) {
     // Stop the function from running when not holding mouse down
     if (!isDrawing) return;
+    console.log(e);
+
+    ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
+
     ctx.beginPath();
     // Start from
     ctx.moveTo(lastX, lastY);
@@ -26,6 +32,8 @@ function draw(e) {
     ctx.stroke();
 
     [lastX, lastY] = [e.offsetX, e.offsetY];
+
+    hue++;
 }
 
 canvas.addEventListener('mousedown', (e) => {
