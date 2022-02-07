@@ -83,3 +83,7 @@ This problem really just loops over the array and adds each instance to an objec
 <details>A predictive text feature that matches a city or state that you type in and provides population information.
 
 ![AJAX Type Ahead](./Screenshots/TypeAhead.png)</details>
+
+## Day 7. Array Cardio Day 2
+
+<details>This day returns single line console outputs that are easily verifiable so it's not really helpful to put tiny screenshots here. However, this day covered more array methods, such as: Some, Every, Find, and Find Index.
