@@ -10,12 +10,13 @@ canvas.height = window.innerHeight;
 ctx.strokeStyle = '#BADA55';
 ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
-ctx.lineWidth = 50;
+ctx.lineWidth = 100;
 
 let isDrawing = false;
 let lastX = 0;
 let lastY = 0;
 let hue = 0;
+let direction = true;
 
 function draw(e) {
     // Stop the function from running when not holding mouse down
@@ -33,7 +34,23 @@ function draw(e) {
 
     [lastX, lastY] = [e.offsetX, e.offsetY];
 
+    // Increment hue to change color
     hue++;
+    if (hue > 360) {
+        hue = 0;
+    }
+
+    // Vary line width by loop
+    if (ctx.lineWidth >= 100 || ctx.lineWidth <= 10) {
+        direction = !direction;
+    }
+
+    // Thicken or thin line
+    if (direction) {
+        ctx.lineWidth++;
+    } else {
+        ctx.lineWidth--;
+    }
 }
 
 canvas.addEventListener('mousedown', (e) => {
