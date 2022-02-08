@@ -98,6 +98,4 @@ This problem really just loops over the array and adds each instance to an objec
 
 ## Day 9. Must Know Dev Tools/Tricks
 
-<details>Refreshing on Dev Tools used in the browser.
-
-![Must Know Dev Tools/Tricks](#)</details>
+<details>Refreshing on Dev Tools used in the browser, as well as different ways of console logging.
