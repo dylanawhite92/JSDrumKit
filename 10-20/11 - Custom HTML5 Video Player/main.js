@@ -6,7 +6,7 @@ const progressBar = player.querySelector(".progress__filled");
 const toggle = player.querySelector(".toggle");
 const skipButtons = player.querySelectorAll("[data-skip]");
 const ranges = player.querySelectorAll(".player__slider");
-let speed = player.querySelector("#player__speed");
+let speedText = player.querySelector("#player__speed");
 
 // Build out functions
 function togglePlay() {
@@ -24,15 +24,22 @@ function skip() {
 
 }
 
-function handleRangeUpdate(e) {
+function handleRangeUpdate() {
     video[this.name] = this.value;
-    speed.innerHTML = `Speed: ${this.value}x`;
+    speedText.innerHTML = `Speed: ${this.value}x`;
+}
+
+function handleProgress() {
+    const percent = (video.currentTime / video.duration) * 100;
+
+    progressBar.style.flexBasis = `${percent}%`;
 }
 
 // Hook up event listeners
 video.addEventListener("click", togglePlay);
 video.addEventListener("play", updateButton);
 video.addEventListener("pause", updateButton);
+video.addEventListener("timeupdate", handleProgress);
 
 toggle.addEventListener("click", togglePlay);
 skipButtons.forEach(button => button.addEventListener('click', skip));
