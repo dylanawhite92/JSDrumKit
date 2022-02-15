@@ -20,6 +20,10 @@ body {
   justify-content: center;
 }
 
+span {
+  color: white;
+}
+
 .player {
   max-width: 750px;
   border: 5px solid rgba(0, 0, 0, 0.2);
@@ -28,6 +32,68 @@ body {
   font-size: 12px;
 }
 
-span {
+/* This CSS only applied when fullscreen is active */
+.player:fullscreen,
+.player:-webkit-full-screen {
+  max-width: none;
+}
+
+.player__video,
+.player:fullscreen,
+.player:-webkit-full-screen {
+  width: 100%;
+}
+
+.player__button {
+  background: none;
+  border: 0;
+  line-height: 1;
   color: white;
+  text-align: center;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  max-width: 50px;
+}
+
+.player__button:focus {
+  border-color: #ffc600;
+}
+
+.player__slider {
+  width: 10px;
+  height: 30px;
+}
+
+.player__controls {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(100%) translateY(-5px);
+  transition: all 0.3s;
+  flex-wrap: wrap;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.player:hover .player__controls {
+  transform: translateY(0);
+}
+
+.player:hover .progress {
+  height: 15px;
+}
+
+.player__controls > * {
+  flex: 1;
+}
+
+.progress {
+  flex: 10;
+  position: relative;
+  display: flex;
+  flex-basis: 100%;
 }
