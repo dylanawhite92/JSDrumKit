@@ -124,9 +124,9 @@ This problem really just loops over the array and adds each instance to an objec
 
 ![Slide in on Scroll](./Screenshots/SlideScroll.png)</details>
 
-## Day 14. JavaScript References VS. Copying
+## Day 14. Objects & Arrays - JavaScript References VS. Copying
 
-<details>In Progress.
+<details>Going over JavaScript data structure fundamentals and seeing the difference between referencing and copying.
 
 ![JavaScript References VS. Copying](#)</details>
 
