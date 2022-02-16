@@ -24,6 +24,11 @@ span {
   color: white;
 }
 
+span,
+button {
+  margin-left: 1px;
+}
+
 .player {
   max-width: 750px;
   border: 3px solid rgba(0, 0, 0, 0.2);
@@ -57,10 +62,14 @@ span {
   max-width: 50px;
 }
 
-.player__button:hover {
-  border: 1px solid #ffc600;
+span,
+.player__button {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
+}
+
+.player__button:hover {
+  border: 1px solid #ffc600;
 }
 
 .player__slider {
