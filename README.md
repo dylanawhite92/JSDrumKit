@@ -120,7 +120,7 @@ This problem really just loops over the array and adds each instance to an objec
 
 ## Day 13. Slide in on Scroll
 
-<details>In Progress.
+<details>As we slide down a web page, have images scroll into view.
 
 ![Slide in on Scroll](#)</details>
 
