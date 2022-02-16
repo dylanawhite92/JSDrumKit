@@ -112,11 +112,11 @@ This problem really just loops over the array and adds each instance to an objec
 
 ![Custom HTML5 Video Player](./Screenshots/VideoPlayer.png)</details>
 
-## Day 12. Key Sequence Detection (KONAMI CODE)
+## Day 12. Key Sequence Detection (KONAMI CODE Style)
 
-<details>In Progress.
+<details>Listen for a certain sequence of keys to be pressed, and then run a function when the secret code is recognized.
 
-![Key Sequence Detection (KONAMI CODE)](#)</details>
+![Key Sequence Detection](./Screenshots/KeyDetection.png)</details>
 
 ## Day 13. Slide in on Scroll
 
