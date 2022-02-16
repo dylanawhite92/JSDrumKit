@@ -120,9 +120,9 @@ This problem really just loops over the array and adds each instance to an objec
 
 ## Day 13. Slide in on Scroll
 
-<details>As we slide down a web page, have images scroll into view.
+<details>As we slide down a web page, have images scroll into view when they normally would be partially displayed on screen.
 
-![Slide in on Scroll](#)</details>
+![Slide in on Scroll](./Screenshots/SlideScroll.png)</details>
 
 ## Day 14. JavaScript References VS. Copying
 
