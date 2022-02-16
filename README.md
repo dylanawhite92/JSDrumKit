@@ -98,4 +98,130 @@ This problem really just loops over the array and adds each instance to an objec
 
 ## Day 9. Must Know Dev Tools/Tricks
 
-<details>Refreshing on Dev Tools used in the browser, as well as different ways of console logging.
+<details>Refreshing on Dev Tools used in the browser, as well as different ways of console logging.</details>
+
+## Day 10. Hold Shift to Check Multiple Checkboxes
+
+<details>An email inbox style layout that does exactly what it says on the tin: When you click on one item and then hold shift while clicking another one, it will check all of the items in between those two and check them.
+
+![Hold Shift to Check Multiple Checkboxes](./Screenshots/Checkbox.png)</details>
+
+## Day 11. Custom HTML5 Video Player
+
+<details>Building a custom interface with added controls for an HTML video player.
+
+![Custom HTML5 Video Player](./Screenshots/VideoPlayer.png)</details>
+
+## Day 12. Key Sequence Detection (KONAMI CODE)
+
+<details>In Progress.
+
+![Key Sequence Detection (KONAMI CODE)](#)</details>
+
+## Day 13. Slide in on Scroll
+
+<details>In Progress.
+
+![Slide in on Scroll](#)</details>
+
+## Day 14. JavaScript References VS. Copying
+
+<details>In Progress.
+
+![JavaScript References VS. Copying](#)</details>
+
+## Day 15. LocalStorage
+
+<details>In Progress.
+
+![LocalStorage](#)</details>
+
+## Day 16. Mouse Move Shadow
+
+<details>In Progress.
+
+![Mouse Move Shadow](#)</details>
+
+## Day 17. Sort Without Articles
+
+<details>In Progress.
+
+![Sort Without Articles](#)</details>
+
+## Day 18. Adding Up Times with Reduce
+
+<details>In Progress.
+
+![Adding Up Times with Reduce](#)</details>
+
+## Day 19. Webcam Fun
+
+<details>In Progress.
+
+![Webcam Fun](#)</details>
+
+## Day 20. Speech Detection
+
+<details>In Progress.
+
+![Speech Detection](#)</details>
+
+## Day 21. Geolocation
+
+<details>In Progress.
+
+![Geolocation](#)</details>
+
+## Day 22. Follow Along Link Highlighter
+
+<details>In Progress.
+
+![Follow Along Link Highlighter](#)</details>
+
+## Day 23. Speech Synthesis
+
+<details>In Progress.
+
+![Speech Synthesis](#)</details>
+
+## Day 24. Sticky Nav
+
+<details>In Progress.
+
+![Sticky Nav](#)</details>
+
+## Day 25. Event Capture, Propagation, Bubbling, and Once
+
+<details>In Progress.
+
+![Event Capture, Propagation, Bubbling, and Once](#)</details>
+
+## Day 26. Stripe Follow Along Nav
+
+<details>In Progress.
+
+![Stripe Follow Along Nav](#)</details>
+
+## Day 27. Click and Drag
+
+<details>In Progress.
+
+![Click and Drag](#)</details>
+
+## Day 28. Video Speed Controller
+
+<details>In Progress.
+
+![Video Speed Controller](#)</details>
+
+## Day 29. Countdown Timer
+
+<details>In Progress.
+
+![Countdown Timer](#)</details>
+
+## Day 30. Whack A Mole
+
+<details>In Progress.
+
+![Whack A Mole](#)</details>
