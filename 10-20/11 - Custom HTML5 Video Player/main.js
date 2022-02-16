@@ -1,4 +1,4 @@
-// Get Elements
+// Grab elements
 const player = document.querySelector(".player");
 const video = player.querySelector(".viewer");
 const progress = player.querySelector(".progress");
@@ -8,7 +8,7 @@ const skipButtons = player.querySelectorAll("[data-skip]");
 const ranges = player.querySelectorAll(".player__slider");
 let speedText = player.querySelector("#player__speed");
 
-// Build out functions
+// Functions
 function togglePlay() {
     const method = video.paused ? "play" : "pause";
     video[method]();
@@ -26,7 +26,10 @@ function skip() {
 
 function handleRangeUpdate() {
     video[this.name] = this.value;
-    speedText.innerHTML = `Speed: ${this.value}x`;
+
+    if (this.name === "playbackRate") {
+        speedText.innerHTML = `Speed: ${this.value}x`;
+    }
 }
 
 function handleProgress() {
@@ -40,7 +43,7 @@ function scrub(e) {
     video.currentTime = scrubTime;
 }
 
-// Hook up event listeners
+// Event Listeners
 video.addEventListener("click", togglePlay);
 video.addEventListener("play", updateButton);
 video.addEventListener("pause", updateButton);
